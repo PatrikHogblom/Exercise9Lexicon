@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--En första implementation-->
+    <script>BisBoshFunc(100);</script>
+
+    <!--En andra implementation: Bish-Bosh 2.0-->
+    <!--
+        Bishbosh med visuellt gränsnitt i html.
+        1. Anväsaren sätta vilken siffra som är Bish
+        2. vilken siffra som är Bosh
+        3. hur långt loopen skall gå
+        4. inga negativa värden tillåts i input
+    -->
+
+    <header>
+        <h1>Bish-Bosh 2</h1>
+    </header>
+
+    <main>
+        <div>
+            div, information will here
+        </div>
+        <div>
+            <div>
+                <label for="InputBishDiv">sätt in delbar tal som du vill skall bli Bish:</label>
+                <input id="InputBishDiv" type="text" placeholder="Enter a number for Bish">
+            </div>
+            <div>
+                <label for="inputBoshDiv">sätt in delbar tal som du vill skall bli Bosh:</label>
+                <input id="inputBoshDiv" type="text" placeholder="Enter a number for Bosh">
+            </div>
+            <div>
+                <label for="inputTotNumbers">sätt in hur många heltal du vill loopa igenom:</label>
+                <input id="inputTotNumbers" type="text" placeholder="Enter a number total numbers to loop">
+            </div>
+            <div>
+                <button id="printBishBoshBtn">Print Bish-Bosh</button>
+            </div>
+            <div id="printBishBoshText">
+                print text here
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        footer
+    </footer>
+
+    <script src="BishBosh.js"></script>
+
+</body>
+</html>
