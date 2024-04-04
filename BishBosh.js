@@ -1,5 +1,5 @@
-document.getElementById("printBishBoshBtn").addEventListener('click', BishBosh2);
-
+/*En första implementation*/
+BisBoshFunc(100);
 
 function BisBoshFunc(number)
 {
@@ -23,6 +23,9 @@ function BisBoshFunc(number)
         console.log(i);
     }
 }
+
+/*En andra implementation*/
+document.getElementById("printBishBoshBtn").addEventListener('click', BishBosh2);
 
 function BishBosh2(){
     //console.log("btn clicked");
