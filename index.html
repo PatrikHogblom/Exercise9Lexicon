@@ -27,24 +27,35 @@
 
     <main class="container-xl mb-5 pb-5 pt-2 text-center">
         <div class="row-xl border mt-2">
-            div, information will here
+            <h2>Syfte/Info</h2>
+            <p>
+                Bish-Bosh har skapats utifrån Lexicons Övning 9, syftet är att 
+                lista tal mellan 1,2,3,...,n tal, användaren skall lägga in 
+                två positiva heltal tal för att se om dessa tal är delbart med 
+                alla heltal upp till det tal användaren har uppgett att vilja 
+                loopa igenom. Om användaren lagt in t.ex. talet  3 för bish, och talet 4 
+                för bosh och slutvärdet 100. Så kommer programmet printa bish för alla tal 
+                som är delbart med 3 men inte med 4, bosh för alla tal som är delbart med 4 men inte 3 och 
+                slutligen bish-bosh för alla tal som är delbart med både talen 3 och 4.      
+            </p>
         </div>
-        <div class="row-xl border mt-2 p-2">
-            <div class="row-xl border mt-2">
-                <label for="InputBishDiv" class="row-xl border mt-2">sätt in delbar tal som du vill skall bli Bish:</label>
+        <div class="row-xl mt-2 p-2">
+            <h2>Bish-Bosh</h2>
+            <div class="row-xl  mt-2">
+                <label for="InputBishDiv">sätt in delbar tal som du vill skall bli Bish:</label>
                 <input id="InputBishDiv" type="text" placeholder="Enter a number for Bish" class=" inputFields">
             </div>
-            <div class="row-xl border mt-2">
+            <div class="row-xl mt-2">
                 <label for="inputBoshDiv">sätt in delbar tal som du vill skall bli Bosh:</label>
                 <input id="inputBoshDiv" type="text" placeholder="Enter a number for Bosh" class=" inputFields">
             </div>
-            <div class="row-xl border mt-2">
+            <div class="row-xl mt-2">
                 <label for="inputTotNumbers">sätt in hur många heltal du vill loopa igenom:</label>
                 <input id="inputTotNumbers" type="text" placeholder="Enter a number total numbers to loop" class=" inputFields">
             </div>
             <button id="printBishBoshBtn" type="button" class="btn btn-primary m-1">Print Bish-Bosh</button>
             <div id="printBishBoshText" class="row-xl border text-start p-2">
-                print text here
+                result will be printed here
             </div>
         </div>
     </main>
