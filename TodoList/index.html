@@ -1,3 +1,8 @@
+<!--1. skriva in en vara som ska läggas till listan i ett input fält-->
+<!--2. Skapa en knapp som lägger till varan i listan. -->
+<!--3. När varan har lagts till ska man ha möjlighet att markera varan som inköpt genom att klicka på varan. Texten blir då överstruken samt elementet ändrar bakgrundsfärg. -->
+<!--4. Det ska gå att ångra att varan blev tillagd. Texten återgår då från överstruken till normal samt elementet återfår sin ursprungliga färg.-->
+<!--5.  Det ska även finnas en möjlighet att ta bort varan helt från listan. -->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -9,24 +14,18 @@
 </head>
 <body>
     <header class="bg-dark text-white p-3 text-center">
-        <h1>Inköplista-Header</h1>
+        <h1>Todo list</h1>
     </header>
     <main class="container mt-5 mb-5 p-5 text-center bg-light">
         <h3>Inköpslista</h3>
-        <!--1. skriva in en vara som ska läggas till listan i ett input fält-->
         <div class="row text-center">
-            <!--<label for="inputWare">Lägg till vara</label>-->
             <input type="text" name="inputware" placeholder="lägg till en vara" id="inputWare">
-            <!--2. Skapa en knapp som lägger till varan i listan. -->
-            <input type="button" value="Lägg till" id="inputWare-btn" class="btn btn-primary mt-1">
+            <button type="button" value="Lägg till" id="inputWare-btn" class="btn btn-primary mt-1">Lägg till</button>
         </div>
         
-        <div class="container bg-white m-2">
+        <div class="container m-2">
             <ul id="itemContainerList" class="list-group"></ul>    
         </div>
-        <!--3. När varan har lagts till ska man ha möjlighet att markera varan som inköpt genom att klicka på varan. Texten blir då överstruken samt elementet ändrar bakgrundsfärg. -->
-        <!--4. Det ska gå att ångra att varan blev tillagd. Texten återgår då från överstruken till normal samt elementet återfår sin ursprungliga färg.-->
-        <!--5.  Det ska även finnas en möjlighet att ta bort varan helt från listan. -->
     </main>
 
     <footer class="bg-primary fixed-bottom p-3 text-white text-center">
@@ -35,5 +34,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="shoppingList.js"></script>
+    
 </body>
 </html>
