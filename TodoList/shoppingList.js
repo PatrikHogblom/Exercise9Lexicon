@@ -32,7 +32,6 @@ function addItem()
         boughtButton.remove();
 
         //add undo button
-        //add the undo button
         let undoButton = document.createElement("button");
         undoButton.className = "btn btn-warning btn-sm float-end";
         undoButton.textContent = "Undo";
